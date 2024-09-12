@@ -6,11 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
+
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
 
   <title>Frontend Mentor | Contact form</title>
 
   <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
 
   <style>
     .attribution {
@@ -28,52 +34,62 @@
 
 
   <section class="formulario">
-    <h1>Contact Us</h1>
 
     <form>
-
+      <h1>Contact Us</h1>
+      <br>
       <div class="campoNome">
         <div class="primeiroNome">
           <label for="">Nome</label>
           <input type="text">
           <br>
-          This field is required
           <br>
         </div>
         <div class="sobrenome">
           <label for="">Last Name</label>
-          <input type="text"> <br>
-          This field is required <br>
+          <input type="text">
+          <br>
+          <br>
+        </div>
         </div>
         <div class="campoEmail">
           <label for="">Email Address</label>
           <input type="text" name="" id="">
-          Please enter a valid email address <br>
           <br>
-          This field is required
+          <br>
         </div>
         <div class="CampoDeSelecao">
-          <h4>Query Type</h4>
+          <h2>Query Type</h2>
+          <br>
+          <br>
           <input type="checkbox" name="">
-          <label for="">General Enquiry</label> 
+          <label for="">General Enquiry</label>
           <input type="checkbox" name="" id="">
-          <label for="">Support Request</label> 
+          <label for="">Support Request</label>
 
-          Please select a query type <br>
+          <br>
         </div>
-        
+
         <div class="campoMensagem">
           <label for="">Message</label>
-          <input type="text"> <br>
-          This field is required
+          <input type="text">
+
+          <br>
+          <br>
         </div>
         <input type="checkbox">
-        <label for="">I consent to being contacted by the team</label> <br>
+        <label for="">I consent to being contacted by the team</label>
+        <br>
+        <br>
         To submit this form, please consent to being contacted
         <br>
-        <button>Submit</button> <br>
+        <br>
+        <input type="submit">
+        <br>
 
         Message Sent!
+        <br>
+        <br>
         Thanks for completing the form. We'll be in touch soon!
 
     </form>
