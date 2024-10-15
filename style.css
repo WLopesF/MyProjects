@@ -7,9 +7,11 @@
     align-items: center;
     align-content: center;
     border: 1px solid black;
-    margin: 1cm;
-    padding: 0.5cm;
+    margin: 3cm;
+    padding: 1cm;
     background-color: antiquewhite;
+    font-size: small;
+
    
 }
 
@@ -31,9 +33,7 @@ header {
     align-items: center;
 }
 
-.sinopse1{
-    display: flex;
-    justify-content: center;
-    padding: 1cm;
+.titulo {
+    font-size: xx-large;
 }
 
