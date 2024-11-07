@@ -15,8 +15,6 @@
     padding: 1cm;
     background-color: antiquewhite;
     font-size: medium;
-
-   
 }
 
 header {
@@ -24,6 +22,15 @@ header {
     justify-content: center;
     text-align: center;
 }
+
+.compra {
+   display: center;
+   text-align: center;
+    border: 1px solid black;
+    margin: 1cm;
+    padding: 1cm;
+}
+    
 
 .direitos {
     display: flex;
